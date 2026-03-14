@@ -1,0 +1,44 @@
+﻿.footer {
+  background: #efe5d3;
+  border-top: 1px solid rgba(201, 162, 39, 0.2);
+  padding: 1.25rem 0 3rem;
+}
+
+.home-footer-divider {
+  align-items: center;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  margin: 0 auto 1.1rem;
+  max-width: 260px;
+}
+
+.home-footer-divider span {
+  background: linear-gradient(90deg, transparent, rgba(201, 162, 39, 0.3), transparent);
+  flex: 1;
+  height: 1px;
+}
+
+.home-footer-divider i {
+  color: #c9a227;
+  font-size: 0.8rem;
+}
+
+.home-footer-sponsor {
+  color: #665d4e;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+}
+
+.home-footer-sponsor strong {
+  color: #9f7d13;
+}
+
+.home-footer-copy {
+  color: #8f8576;
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  margin: 0;
+  text-transform: uppercase;
+}

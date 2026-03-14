@@ -1,0 +1,163 @@
+.welcome-section {
+  padding: 100px 0;
+
+  background:
+
+    url("/src/assets/images/ganeshji.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* move image upward */
+  background-position: center -444px;
+}
+
+.section-title {
+  color: #3a2d12;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  margin-bottom: 14px;
+  font-size: 3rem;
+    font-family: "Relyne", sans-serif;
+}
+
+.section-subtitle {
+  max-width: 660px;
+  margin: 0 auto;
+  color: #4f4534;
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 700;
+}
+
+.feature-card {
+  height: 100%;
+  padding: 34px 28px;
+  border-radius: 16px;
+  font-size: 1.5rem;
+  font-family: "Relyne", sans-serif;
+  font-weight: 700;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-left: 6px solid rgba(47, 38, 18, 0.6);
+
+  /* Glass background */
+  background: rgba(255, 255, 255, 0.15);
+
+  /* Glass blur effect */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(12px);
+
+  /* Soft shadow */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+
+
+}
+
+
+.feature-card:hover {
+  transform: translateY(-12px);
+  border-color: rgba(182, 139, 44, 0.45);
+  border-left-color: #1f190d;
+  box-shadow: 0 22px 40px rgba(33, 25, 8, 0.18);
+
+}
+
+.feature-icon {
+  width: 78px;
+  height: 70px;
+  margin: 0 auto 18px;
+  border-radius: 18px;
+  background: linear-gradient(145deg, #e7cf91, #c79e44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 18px rgba(79, 58, 19, 0.28);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.feature-card:hover .feature-icon {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 14px 24px rgba(79, 58, 19, 0.38);
+}
+
+.feature-icon i {
+  font-size: 32px;
+  color: #2b220f;
+}
+
+.feature-title {
+  margin: 6px 0 10px;
+  color: #ffbb00;
+  font-weight: 1000;
+  font-size: 2rem;
+}
+
+.feature-text {
+  margin: 0;
+  color: #15130e;
+  line-height: 1.65;
+  font-weight: 300;
+}
+
+@media (max-width: 991px) {
+  .welcome-section {
+    padding: 78px 0;
+    background-position: center -200px;
+  }
+
+  .section-title {
+    font-size: 2.4rem;
+  }
+
+  .section-subtitle {
+    font-size: 18px;
+    max-width: 88%;
+  }
+
+  .feature-card {
+    padding: 28px 22px;
+    font-size: 1.2rem;
+  }
+
+  .feature-title {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .welcome-section {
+    padding: 62px 0;
+    background-position: center top;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 94%;
+  }
+
+  .feature-card {
+    padding: 22px 18px;
+    border-left-width: 4px;
+  }
+
+  .feature-icon {
+    width: 64px;
+    height: 58px;
+    margin-bottom: 14px;
+  }
+
+  .feature-icon i {
+    font-size: 26px;
+  }
+
+  .feature-title {
+    font-size: 1.35rem;
+  }
+}

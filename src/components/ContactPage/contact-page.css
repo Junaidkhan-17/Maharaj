@@ -1,0 +1,366 @@
+.contact-page-modern {
+  --ivory: #f8f4ea;
+  --beige: #f1eadc;
+  --card: #fffdfa;
+  --text: #2c261d;
+  --muted: #5d5649;
+  --gold: #c9a227;
+  --gold-deep: #9f7d13;
+  --line: rgba(201, 162, 39, 0.3);
+  --shadow: 0 16px 36px rgba(46, 35, 14, 0.1);
+  --shadow-soft: 0 10px 24px rgba(46, 35, 14, 0.08);
+
+  background:
+    radial-gradient(circle at 8% 0%, rgba(201, 162, 39, 0.14), transparent 32%),
+    radial-gradient(circle at 92% 6%, rgba(201, 162, 39, 0.1), transparent 34%),
+    var(--ivory);
+  color: var(--text);
+  font-family: "Relyne", "Segoe UI", sans-serif;
+}
+
+.contact-page-modern .container {
+  max-width: 1140px;
+}
+
+.contact-hero-section {
+  padding: 6rem 0 3rem;
+}
+
+.contact-eyebrow {
+  color: var(--gold-deep);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  margin-bottom: 0.7rem;
+  text-transform: uppercase;
+}
+
+.contact-hero-title {
+  color: var(--gold);
+    font-family: "Relyne", "Segoe UI", sans-serif;
+  font-size: clamp(2.2rem, 4.4vw, 3.9rem);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.contact-hero-subtitle {
+  color: var(--muted);
+  font-size: 1.06rem;
+  line-height: 1.85;
+  margin: 0 auto 1.3rem;
+  max-width: 760px;
+  font-family: "Relyne", "Segoe UI", sans-serif;
+    font-weight: 700;
+}
+
+.contact-divider {
+  align-items: center;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.contact-divider span {
+  background: linear-gradient(90deg, transparent, var(--line), transparent);
+  flex: 1;
+  height: 1px;
+}
+
+.contact-divider i {
+  color: var(--gold);
+  font-size: 0.8rem;
+}
+
+.contact-details-section {
+  padding: 1.3rem 0 2.4rem;
+}
+
+.contact-details-row {
+  transform: translateX(16px);
+}
+
+.contact-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow-soft);
+  padding: 1.45rem 1.3rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-4px);
+}
+
+.contact-card-icon {
+  align-items: center;
+  background: linear-gradient(160deg, #fff8e7, #f9d76f);
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  color: var(--gold-deep);
+  display: flex;
+  height: 42px;
+  justify-content: center;
+  margin: 0 auto 0.8rem;
+  width: 42px;
+  font-weight: 700;
+}
+
+.contact-card h3 {
+  color: var(--gold);
+  font-family: "Relyne", "Segoe UI", sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 0.35rem;
+}
+
+.contact-main-detail {
+  color: #41392d;
+  font-weight: 600;
+  margin-bottom: 0.24rem;
+}
+
+.contact-address-link {
+  color: #41392d;
+  text-decoration: none;
+}
+
+.contact-address-link:hover {
+  color: var(--gold-deep);
+  text-decoration: underline;
+}
+
+.contact-sub-detail {
+  color:black;
+  font-size: 0.94rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.contact-form-section {
+  padding: 0 0 4.8rem;
+}
+
+.contact-form-shell {
+  background: linear-gradient(170deg, #fffdf8, #f5edd9);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow-soft);
+  padding: 1.7rem;
+    font-family: "Relyne", "Segoe UI", sans-serif;
+}
+
+.contact-form-intro h2 {
+  color: var(--gold);
+  font-family: "Relyne", "Segoe UI", sans-serif;
+  font-size: clamp(1.7rem, 2.6vw, 2.25rem);
+  margin: 0.4rem 0 0.8rem;
+  font-weight: 700;
+}
+
+.contact-form-tag {
+  background: rgba(201, 162, 39, 0.16);
+  border-radius: 999px;
+  color: var(--gold-deep);
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0;
+  padding: 0.28rem 0.7rem;
+  text-transform: uppercase;
+}
+
+.contact-form-intro p {
+  color: black;
+  line-height: 1.8;
+    font-weight: 300;
+}
+
+.contact-check-list {
+  color: #4a4134;
+  list-style: none;
+  margin: 0.85rem 0 0;
+  padding: 0;
+}
+
+.contact-check-list li {
+  margin-bottom: 0.48rem;
+  padding-left: 1.35rem;
+  position: relative;
+}
+
+.contact-check-list li::before {
+  color: var(--gold-deep);
+  content: "*";
+  font-size: 1rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.contact-form-grid {
+  display: grid;
+  gap: 0.9rem 0.8rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.contact-form-grid label {
+  color: #4f4538;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  font-weight: 600;
+  gap: 0.36rem;
+}
+
+.contact-form-grid input,
+.contact-form-grid textarea {
+  background: #fff;
+  border: 1px solid rgba(158, 128, 39, 0.24);
+  border-radius: 10px;
+  color: #30291f;
+  font-size: 0.95rem;
+  outline: none;
+  padding: 0.72rem 0.8rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-form-grid input:focus,
+.contact-form-grid textarea:focus {
+  border-color: rgba(201, 162, 39, 0.7);
+  box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.15);
+}
+
+.contact-form-grid textarea {
+  min-height: 122px;
+  resize: vertical;
+}
+
+.contact-form-grid .full-width,
+.contact-submit-btn {
+  grid-column: 1 / -1;
+}
+
+.contact-submit-btn {
+  background: linear-gradient(160deg, #d5b04b, #ad811f);
+  border: none;
+  border-radius: 10px;
+  color: #fffef8;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-top: 0.2rem;
+  padding: 0.78rem 1.1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.contact-qr-card {
+  background: #fffdf7;
+  border: 1px solid rgba(201, 162, 39, 0.28);
+  border-radius: 14px;
+  box-shadow: var(--shadow-soft);
+  height: 100%;
+  position: sticky;
+  top: 102px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.contact-qr-card h3 {
+  color: var(--gold);
+  font-family: "Relyne", "Segoe UI", sans-serif;
+  font-size: 1.35rem;
+  margin-bottom: 0.45rem;
+}
+
+.contact-qr-card p {
+  color: var(--muted);
+  font-size: 0.92rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.contact-qr-card img {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.contact-qr-link {
+  background: linear-gradient(160deg, #d5b04b, #ad811f);
+  border-radius: 8px;
+  color: #fffef8;
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 0.9rem;
+  padding: 0.58rem 1rem;
+  text-decoration: none;
+}
+
+.contact-footer {
+  background: #efe5d3;
+  border-top: 1px solid rgba(201, 162, 39, 0.2);
+  padding: 1.25rem 0 3rem;
+}
+
+.footer-divider {
+  margin-bottom: 1.1rem;
+  max-width: 260px;
+}
+
+.footer-sponsor {
+  color: #665d4e;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+}
+
+.footer-sponsor strong {
+  color: var(--gold-deep);
+}
+
+.footer-copy {
+  color: #8f8576;
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  .contact-details-row {
+    transform: none;
+  }
+
+  .contact-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-qr-card {
+    position: static;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-hero-section {
+    padding: 5.1rem 0 2.3rem;
+  }
+
+  .contact-details-section {
+    padding-bottom: 2rem;
+  }
+
+  .contact-form-section {
+    padding-bottom: 3.8rem;
+  }
+
+  .contact-form-shell {
+    padding: 1.1rem;
+  }
+}

@@ -1,0 +1,71 @@
+.quote-section{
+padding:90px 0;
+background:#ffffff;
+  background: linear-gradient(160deg, #ff7700 10%, #efe6d3 40%, #ff7700 100%);
+}
+
+.quote-section h3{
+color:#271e0c;
+font-weight:700;
+margin-bottom:15px;
+font-family: "Relyne", sans-serif;
+font-size: 3rem;
+}
+
+.quote-section p{
+font-size:18px;
+color:#555;
+font-style:italic;
+max-width:700px;
+margin:auto;
+font-family: "Relyne", sans-serif;
+font-weight:700;
+}
+
+.quote-section .container{
+  background: linear-gradient(160deg, #ff7700 10%, #efe6d3 40%, #ff7700 100%);
+padding:50px;
+border-radius:10px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.quote-section .container:hover{
+transform:translateY(-5px);
+box-shadow:0 15px 30px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 991px){
+.quote-section{
+padding:72px 0;
+}
+
+.quote-section h3{
+font-size:2.2rem;
+}
+
+.quote-section .container{
+padding:34px 28px;
+}
+}
+
+@media (max-width: 767px){
+.quote-section{
+padding:56px 0;
+}
+
+.quote-section h3{
+font-size:1.8rem;
+margin-bottom:10px;
+}
+
+.quote-section p{
+font-size:15px;
+line-height:1.6;
+max-width:95%;
+}
+
+.quote-section .container{
+padding:24px 16px;
+}
+}

@@ -1,0 +1,141 @@
+﻿.custom-navbar {
+  background: rgba(255, 251, 243, 0.88);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(201, 162, 39, 0.2);
+  box-shadow: 0 8px 24px rgba(43, 29, 6, 0.08);
+  font-family: "Relyne", "Segoe UI", sans-serif;
+}
+
+.custom-navbar .container {
+  max-width: 100%;
+  padding-left: 28px;
+  padding-right: 20px;
+}
+
+.brand-logo {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.brand-main {
+  color: #9f7d13;
+  font-family: "Relyne", "Segoe UI", sans-serif;
+  font-size: clamp(1.06rem, 1.65vw, 1.32rem);
+  font-weight: 700;
+  letter-spacing: 0.015em;
+}
+
+.brand-sub {
+  color: #7b6752;
+  font-family: "Relyne", "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  margin-top: 0.22rem;
+  text-transform: uppercase;
+}
+
+.nav-menu {
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.nav-item {
+  margin-left: 0;
+}
+
+.nav-link {
+  border-radius: 999px;
+  color: #4f4232;
+  font-family: "Relyne", "Segoe UI", sans-serif;
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-left: 0;
+  padding: 0.42rem 1rem;
+  position: relative;
+  transition: background-color 0.22s ease, color 0.22s ease, transform 0.22s ease;
+}
+
+.nav-link:hover {
+  background: rgba(201, 162, 39, 0.15);
+  color: #8f6d11;
+  transform: translateY(-1px);
+}
+
+.nav-link.active {
+  background: linear-gradient(160deg, #d9b756, #b88621);
+  box-shadow: 0 8px 18px rgba(122, 86, 24, 0.2);
+  color: #fff8ea;
+}
+
+.navbar-toggler {
+  border: 1px solid rgba(164, 126, 34, 0.45);
+  box-shadow: none;
+  padding: 0.45rem 0.58rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(201, 162, 39, 0.22);
+}
+
+.custom-toggler-icon {
+  filter: sepia(1) saturate(3.2) hue-rotate(356deg);
+}
+
+@media (max-width: 991px) {
+  .custom-navbar {
+    background: rgba(255, 249, 238, 0.96);
+  }
+
+  .navbar-collapse {
+    background: rgba(255, 252, 245, 0.94);
+    border: 1px solid rgba(201, 162, 39, 0.24);
+    border-radius: 14px;
+    margin-top: 0.72rem;
+    padding: 0.62rem;
+  }
+
+  .nav-menu {
+    align-items: stretch;
+    gap: 0.3rem;
+  }
+
+  .nav-link {
+    border-radius: 10px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .brand-main {
+    font-size: 1.02rem;
+  }
+
+  .brand-sub {
+    font-size: 0.66rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .custom-navbar .container {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .brand-main {
+    font-size: 0.9rem;
+  }
+
+  .brand-sub {
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+  }
+
+  .nav-link {
+    font-size: 0.92rem;
+    padding: 0.38rem 0.85rem;
+  }
+}
