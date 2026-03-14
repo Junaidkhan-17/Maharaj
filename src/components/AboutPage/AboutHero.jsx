@@ -1,4 +1,4 @@
-import sir1 from "../../assets/images/sir1.png";
+﻿import sir1 from "../../assets/images/sir1.png";
 
 function AboutHero() {
   return (
@@ -41,4 +41,6 @@ function AboutHero() {
 }
 
 export default AboutHero;
+
+
 

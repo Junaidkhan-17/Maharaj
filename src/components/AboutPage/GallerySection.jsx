@@ -42,3 +42,5 @@ function GallerySection() {
 }
 
 export default GallerySection;
+
+

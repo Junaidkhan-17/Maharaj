@@ -1,4 +1,4 @@
-import "./gallery.css";
+﻿import "./gallery.css";
 import { useLayoutEffect, useRef, useState } from "react";
 
 import { gsap } from "gsap";
@@ -192,3 +192,5 @@ function Gallery() {
 }
 
 export default Gallery;
+
+
