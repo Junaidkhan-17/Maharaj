@@ -14,6 +14,7 @@ function Header() {
         </Link>
 
         <button
+          type="button"
           className="navbar-toggler"
           data-bs-toggle="collapse"
           data-bs-target="#nav"
