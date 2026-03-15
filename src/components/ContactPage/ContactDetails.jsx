@@ -4,11 +4,12 @@ const contactCards = [
     title: "Call",
     detail: "+919930375277",
     hint: "Available 24 Hours",
+    link:"https://wa.me/919930375277"
   },
   {
     icon: "bi-geo-alt-fill",
     title: "Address",
-    detail: "Bhakti Deep Ashram, Rishikesh, Uttarakhand",
+    detail: "Bhaktideep Ashram, Ferozepur district, Panchkula, Haryana",
     hint: "India",
     link: "https://share.google/jEwi0ikjgjLDhhAJs",
   },
