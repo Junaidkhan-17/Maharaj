@@ -45,6 +45,8 @@ function ContactFormSection() {
                       <li>Temple Program Coordination</li>
                       <li>Spiritual Guidance Requests</li>
                     </ul>
+                    <h6>Any devotee wishing to become a member of the Guru-Disciple family should fill out this form, 
+                      which is provided free of cost.</h6>
                   </div>
                 </div>
 
