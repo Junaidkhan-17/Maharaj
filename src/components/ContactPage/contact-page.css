@@ -307,6 +307,7 @@
   background: #efe5d3;
   border-top: 1px solid rgba(201, 162, 39, 0.2);
   padding: 1.25rem 0 3rem;
+    position: relative; /* important for absolute logo positioning */
 }
 
 .footer-divider {
@@ -363,4 +364,67 @@
   .contact-form-shell {
     padding: 1.1rem;
   }
+}
+
+/* Logo bottom-right */
+.logos {
+  position: absolute;
+  bottom: 55px;
+  right: 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Created by text */
+.logos h4 {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #444;
+  font-weight: 600;
+}
+
+/* Logo image */
+.logos img {
+  width: 110px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+
+  .logos {
+    bottom: 12px;
+    right: 20px;
+  }
+
+  .logos img {
+    width: 80px;
+  }
+
+  .logos h4 {
+    font-size: 13px;
+  }
+
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+
+  .logos {
+    bottom: 10px;
+    right: 15px;
+  }
+
+  .logos img {
+    width: 65px;
+  }
+
+  .logos h4 {
+    font-size: 12px;
+  }
+
 }

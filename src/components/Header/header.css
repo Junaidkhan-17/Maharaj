@@ -37,8 +37,21 @@
   margin-top: 0.22rem;
   text-transform: uppercase;
 }
+
 .whatsapp-btn{
   color: #006400;
+}
+
+.facebook-btn{
+  color:#0040ff;
+}
+
+.youtube-btn{
+  color: #FF0000;
+}
+
+.instagram-btn{
+  color: #E4405F;
 }
 
 .nav-menu {
@@ -89,6 +102,37 @@
   filter: sepia(1) saturate(3.2) hue-rotate(356deg);
 }
 
+
+/* SOCIAL MEDIA ICONS */
+
+.nav-menu a:not(.nav-link):not(.whatsapp-btn) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-left: 10px;
+  color: #4f4232;
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.nav-menu a:not(.nav-link):not(.whatsapp-btn):hover {
+  transform: scale(1.15);
+}
+
+.nav-menu a[href*="youtube"]:hover {
+  color: #FF0000;
+}
+
+.nav-menu a[href*="facebook"]:hover {
+  color: #1877F2;
+}
+
+.nav-menu a[href*="instagram"]:hover {
+  color: #E4405F;
+}
+
+
+
 @media (max-width: 991px) {
   .custom-navbar {
     background: rgba(255, 249, 238, 0.96);
@@ -122,13 +166,44 @@
   }
 
   .whatsapp-btn {
-  width: 100%;
-  padding: 8px 0;
-  margin: 4px 0;
-  justify-content: center;
-}
+    width: 100%;
+    padding: 8px 0;
+    margin: 4px 0;
+    justify-content: center;
+  }
+
+  .facebook-btn {
+    width: 100%;
+    padding: 8px 0;
+    margin: 4px 0;
+    justify-content: center;
+  }
+
+  .youtube-btn {
+    width: 100%;
+    padding: 8px 0;
+    margin: 4px 0;
+    justify-content: center;
+  }
+
+  .instagram-btn {
+    width: 100%;
+    padding: 8px 0;
+    margin: 4px 0;
+    justify-content: center;
+  }
+
+  /* CENTER SOCIAL ICONS IN MOBILE MENU */
+
+  .nav-menu a:not(.nav-link):not(.whatsapp-btn) {
+    width: 100%;
+    justify-content: center;
+    margin: 6px 0;
+    font-size: 24px;
+  }
 
 }
+
 
 @media (max-width: 575px) {
   .custom-navbar .container {
@@ -150,13 +225,40 @@
     padding: 0.38rem 0.85rem;
   }
 
-  
-
   .whatsapp-btn svg {
     width: 32px;
     height: 32px;
   }
 
+  .facebook-btn svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .instagram-btn svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .youtube-btn svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .nav-menu a:not(.nav-link):not(.whatsapp-btn) {
+    font-size: 22px;
+  }
+
+  .nav-menu a:not(.nav-link):not(.facebook-btn) {
+    font-size: 22px;
+  }
+
+  .nav-menu a:not(.nav-link):not(.instagram-btn) {
+    font-size: 22px;
+  }
+
+  .nav-menu a:not(.nav-link):not(.youtube-btn) {
+    font-size: 22px;
+  }
+
 }
-
-
