@@ -37,6 +37,9 @@
   margin-top: 0.22rem;
   text-transform: uppercase;
 }
+.whatsapp-btn{
+  color: #006400;
+}
 
 .nav-menu {
   align-items: center;

@@ -61,8 +61,9 @@ function LifeStory() {
           <div className="col-lg-6 order-lg-2">
             <div className="story-content-card">
               <p className="story-tag">Havan kund</p>
-              <h2>Havan kund ki Aag</h2>
-              <p>Havan kund is kund ki aag aaj 16years se jal rahi hai barish ho ya kuchh lekin <strong>agni प्रज्वलित</strong> hai abhi Tak</p>
+              <h2>Havan kund Aagni Joyti</h2>
+              <p><strong>The sacred fire in this Havan Kund</strong> has been burning continuously <strong>for the past 16 years.</strong>
+               Whether it rains or anything else happens,<strong> the holy flame is still ignited and burning even today.” 🔥</strong></p>
               <p>
                 The Havan Kund was <strong>established by Guru Ji</strong> at the time of the ashram’s foundation.
                  The most special feature of this sacred fire pit is that the holy fire has been continuously
@@ -76,7 +77,7 @@ function LifeStory() {
             </div>
           </div>
 
-          <div className="col-lg-6 order-lg-1">
+          <div className="col-lg-6 order-lg-2">
             <div className="story-visual-card">
               <img src={havan} alt="Education and attainment visual" loading="lazy" />
               <span className="story-ornament" aria-hidden="true" />
@@ -108,6 +109,8 @@ function LifeStory() {
               <img src={atulyaimage} alt="Education and attainment visual" loading="lazy" />
               <span className="story-ornament" aria-hidden="true" />
             </div>
+            <br></br>
+            <h4>Sponsored by <strong>Atulya Kumar Pandey</strong></h4>
           </div>
         </div>
       </div>

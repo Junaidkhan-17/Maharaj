@@ -23,7 +23,7 @@ function Welcome() {
               <div className="feature-icon">
                 <i className="bi bi-people"></i>
               </div>
-              <h4 className="feature-title">476+ Kathas</h4>
+              <h4 className="feature-title">478+ Kathas</h4>
               <p className="feature-text">Spiritual journeys across India.</p>
             </div>
           </div>

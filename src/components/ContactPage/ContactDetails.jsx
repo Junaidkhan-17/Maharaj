@@ -1,7 +1,7 @@
 const contactCards = [
   {
     icon: "bi-telephone-fill",
-    title: "Call",
+    title: "Call & Whatsapp",
     detail: "+919930375277",
     hint: "Available 24 Hours",
     link:"https://wa.me/919930375277"

@@ -20,7 +20,7 @@
   {
     title: "Spiritual Legacy",
     label: "Present",
-    text: "Completed over 476 Shrimad Bhagwat Kathas across India.",
+    text: "Completed over 478 Shrimad Bhagwat Kathas across India.",
     icon: "bi-award",
   },
 ];

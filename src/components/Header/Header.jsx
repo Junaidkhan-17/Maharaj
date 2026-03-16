@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import "./header.css";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Header() {
   const navClass = ({ isActive }) =>
@@ -42,6 +43,15 @@ function Header() {
                 Contact
               </NavLink>
             </li>
+            <a
+            href="https://wa.me/919930375277"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="whatsapp-btn btn-success d-flex align-items-center gap-2"
+          >
+            <FaWhatsapp  size={40} />
+          </a>
+
           </ul>
         </div>
       </div>
