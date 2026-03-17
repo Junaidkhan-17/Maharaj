@@ -49,7 +49,7 @@ function GallerySection() {
                         and seek guidance from Guru Ji for its resolution.</p>
                     <p>
                       <strong>Guru Ji</strong> writes the devotee’s problems on a piece of paper without even asking them,
-                       and along with it, the solution is also written. 
+                       and along with it, the solution is also written.
                        <strong> Gurudev Sarkar is extremely kind and compassionate.</strong>
                     </p>
                     <p>

@@ -13,12 +13,12 @@ function Footer() {
           Sponsored by <strong>ATULYA KUMAR PANDEY</strong> <span aria-hidden="true">♥</span>
         </p>
         <p className="footer-copy">© 2026 All Rights Reserved</p>
-        
-      </div>
-      <div className="logos">
+        <div className="logos">
               <h4>Created By</h4>
               <img src={webdocklogo} alt="webdocklogo" />
             </div>
+      </div>
+      
     </footer>
   );
 }
